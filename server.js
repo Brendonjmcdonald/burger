@@ -38,7 +38,7 @@ app.get("/", function(req, res){
 });
 
 
-app.post("/api/delete", function(req, res){
+app.post("/", function(req, res){
 	orm.insertOne(req.body.id)
 });
 
